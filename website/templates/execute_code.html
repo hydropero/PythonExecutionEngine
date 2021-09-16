@@ -1,0 +1,20 @@
+{% extends "base.html" %} {% block title %}Code Execution Endpoint{% endblock %}
+
+{% block blank %}
+<h1 class="code-heading" align="center">Code Execution Endpoint</h1>
+<form method="POST">
+<div align="center">
+    <label for="code-block" style="padding-bottom: 3%; font-family 'Source Code Pro'; font-size: 180%;">Enter your Python code below or send a POST request to this endpoint directly</label>
+    <textarea id="code-block" name="code-block" class="textarea" rows="10">
+         Type or paste your Python code here!
+    </textarea>
+</div>
+<div class="container">
+    <div class="col text-center">
+         <button class="btn btn-primary" type="submit">
+             Submit
+         </button>
+     </div>
+</div>
+</form>
+{% endblock %}

@@ -1,0 +1,15 @@
+.code-heading{
+    margin: 6%;
+    font-size: 340%;
+    font-family: "Source Code Pro";
+}
+
+textarea {
+  width: 90%;
+  height: 100%;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 2px;
+  background-color: #f8f8f8;
+}
